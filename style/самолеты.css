@@ -1,0 +1,572 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "roboto";
+  src: url("../fonts/Roboto-Light.ttf"); }
+@font-face {
+  font-family: "monserat";
+  src: url("../fonts/Montserrat-Light.ttf"); }
+@keyframes anim {
+  0% {
+    top: 0; }
+  50% {
+    top: 100%; }
+  100% {
+    top: 0; } }
+* {
+  padding: 0;
+  margin: 0; }
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 5%; }
+  .navbar .links {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .navbar .links .links_item a {
+      font-family: "monserat";
+      outline: none;
+      text-decoration: none;
+      color: #09090A; }
+    .navbar .links .links_item a:hover {
+      color: #FA6E12; }
+  .navbar .language {
+    height: 100%;
+    width: 10%;
+    display: flex;
+    align-items: center; }
+    .navbar .language .language_item {
+      margin-right: 10px;
+      font-family: "monserat"; }
+
+.vl3 {
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center; }
+  .vl3 .vl3fon {
+    width: 100%;
+    height: 70%;
+    background: url(/image/DSC05845\ 1.png) no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 8px 50px 100px rgba(255, 255, 255, 0.95); }
+    .vl3 .vl3fon h1 {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: flex-end;
+      font-family: "roboto";
+      font-size: 35px;
+      font-weight: 900; }
+  .vl3 button {
+    margin-top: 2vh;
+    width: 15%;
+    height: 50px;
+    background-color: #FA6E12;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: "roboto";
+    font-weight: 800;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .vl3 button img {
+      width: 12px;
+      height: 12px;
+      margin-left: 10px; }
+  .vl3 .vl3info {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .vl3 .vl3info p {
+      margin-top: 50px;
+      font-family: "monserat";
+      font-size: 30px;
+      font-weight: 500; }
+    .vl3 .vl3info .info {
+      width: 90%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      text-align: center; }
+      .vl3 .vl3info .info h3 {
+        color: #FA6E12;
+        font-family: "monserat";
+        font-size: 37px; }
+      .vl3 .vl3info .info p {
+        margin-top: 15px;
+        font-family: "monserat";
+        font-size: 20px; }
+      .vl3 .vl3info .info .speed {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center; }
+      .vl3 .vl3info .info .ss {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center; }
+      .vl3 .vl3info .info .range {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center; }
+
+.engine {
+  width: 100%;
+  height: 130vh;
+  background-color: #FA6E12; }
+  .engine .top {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5%; }
+  .engine .mid {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center; }
+    .engine .mid p {
+      font-weight: 500; }
+    .engine .mid .text1 {
+      width: 10%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      text-align: center;
+      justify-content: space-evenly;
+      writing-mode: vertical-rl;
+      transform: rotate(180deg);
+      padding-right: 5%;
+      margin-top: 7%; }
+      .engine .mid .text1 p {
+        font-family: "roboto";
+        font-size: 18px;
+        font-weight: 900; }
+    .engine .mid .column {
+      width: 80%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center; }
+      .engine .mid .column .text912 {
+        border-right: 1px solid black;
+        width: 100%; }
+      .engine .mid .column .text914 {
+        width: 100%;
+        border-right: 1px solid black; }
+      .engine .mid .column .text915 {
+        width: 100%; }
+      .engine .mid .column p {
+        padding-top: 15%;
+        font-family: "monserat";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center; }
+      .engine .mid .column h1 {
+        font-family: "roboto";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center; }
+  .engine .bot {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; }
+    .engine .bot h1 {
+      font-family: "roboto";
+      font-size: 35px; }
+    .engine .bot p {
+      font-family: "monserat";
+      font-size: 14px;
+      padding-top: 10px; }
+
+.parts {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+  .parts .navbarparts {
+    width: 70%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    border-bottom: #09090A solid 1px; }
+    .parts .navbarparts a {
+      text-decoration: none;
+      color: #09090A;
+      font-family: "roboto";
+      font-size: 25px;
+      position: relative; }
+    .parts .navbarparts .nava {
+      height: 100%;
+      width: 20%;
+      display: flex;
+      align-items: center;
+      position: relative; }
+    .parts .navbarparts .nava:hover::before {
+      content: "";
+      position: absolute;
+      width: 70%;
+      height: 4px;
+      background-color: #FA6E12;
+      bottom: 0; }
+  .parts .description {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center; }
+    .parts .description .descriptiontext {
+      width: 60%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: left; }
+      .parts .description .descriptiontext p {
+        font-family: "monserat";
+        font-size: 14px; }
+      .parts .description .descriptiontext img {
+        width: 40%;
+        height: 50%; }
+
+.design {
+  width: 100%;
+  height: 70vh;
+  background: url(/image/fon123.jpg) no-repeat;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: 200px; }
+  .design .designinfo {
+    width: 508px;
+    height: 306px;
+    background: url(/image/Frame\ 85.png); }
+
+.inboard {
+  width: 100%;
+  height: auot;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  text-align: center;
+  flex-wrap: wrap; }
+  .inboard .textinboartop {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 0 10%; }
+  .inboard .textinboard {
+    width: 30%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 100px; }
+    .inboard .textinboard h1 {
+      font-family: "roboto";
+      font-size: 38px;
+      display: flex;
+      text-align: left; }
+    .inboard .textinboard p {
+      font-family: "monserat";
+      font-size: 14px;
+      padding-top: 20px;
+      display: flex;
+      text-align: left; }
+  .inboard .midimg {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%; }
+  .inboard .bottext {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background: url(../image/фон\ кабины\ самолета.png);
+    background-size: 100% 100%;
+    margin-top: 3%; }
+    .inboard .bottext .text {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      text-align: left;
+      align-items: center; }
+      .inboard .bottext .text p {
+        font-family: "roboto";
+        font-size: 23px; }
+
+.plainbag {
+  width: 100%;
+  height: 47vh;
+  display: flex; }
+  .plainbag .plaintext {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; }
+    .plainbag .plaintext h1 {
+      font-family: "roboto";
+      font-size: 35px;
+      font-weight: 600;
+      margin-bottom: 10px; }
+    .plainbag .plaintext p {
+      font-family: "monserat";
+      font-size: 17px; }
+
+.security {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column; }
+  .security .securityplain {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .security .allsecuritytext {
+    width: 100%;
+    height: 85%;
+    display: flex; }
+    .security .allsecuritytext h1 {
+      margin-bottom: 25px; }
+    .security .allsecuritytext h2 {
+      margin-bottom: 20px; }
+    .security .allsecuritytext .securityleft {
+      width: 50%;
+      height: 100%;
+      border-right: #6D6B6B solid 1px;
+      display: flex;
+      flex-direction: column; }
+      .security .allsecuritytext .securityleft .securitytext1 {
+        width: 85%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        justify-content: right; }
+        .security .allsecuritytext .securityleft .securitytext1 h1 {
+          font-family: "roboto";
+          font-size: 35px; }
+        .security .allsecuritytext .securityleft .securitytext1 h2 {
+          font-family: "roboto";
+          font-size: 25px; }
+        .security .allsecuritytext .securityleft .securitytext1 p {
+          font-family: "monserat";
+          font-size: 14px; }
+      .security .allsecuritytext .securityleft .securityimg1 {
+        width: 88%;
+        height: 50%; }
+        .security .allsecuritytext .securityleft .securityimg1 img {
+          width: 100%; }
+    .security .allsecuritytext .securityright {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: column; }
+      .security .allsecuritytext .securityright .securityimg2 {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: flex-end; }
+        .security .allsecuritytext .securityright .securityimg2 img {
+          width: 85%; }
+      .security .allsecuritytext .securityright .securitytext2 {
+        width: 50%;
+        height: 85%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: center;
+        margin-left: 15%; }
+        .security .allsecuritytext .securityright .securitytext2 h2 {
+          font-family: "roboto";
+          font-size: 25px; }
+        .security .allsecuritytext .securityright .securitytext2 p {
+          font-family: "monserat";
+          font-size: 14px; }
+
+.interior {
+  width: 100%;
+  height: 70vh;
+  display: flex; }
+  .interior .text {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; }
+    .interior .text .lists {
+      width: 100%;
+      height: 60%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center; }
+      .interior .text .lists p {
+        margin-top: 15px;
+        font-family: "monserat";
+        font-size: 14px; }
+      .interior .text .lists img {
+        margin-right: 15px; }
+      .interior .text .lists h3 {
+        font-family: "monserat";
+        font-size: 17px; }
+    .interior .text .bottext {
+      width: 100%;
+      height: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: left;
+      align-items: left;
+      padding-left: 123px; }
+      .interior .text .bottext p {
+        font-family: "monserat";
+        font-size: 14px; }
+  .interior .imgin {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center; }
+    .interior .imgin img {
+      width: 100vh;
+      height: 70vh; }
+
+.plusminus {
+  width: 100%;
+  height: 60vh;
+  background: url(/image/Frame\ 121.png); }
+
+.footer {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #09090A; }
+  .footer .footeritem {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "monserat"; }
+    .footer .footeritem .info {
+      width: 20%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      color: white;
+      border-right: grey 1px solid; }
+    .footer .footeritem .links {
+      width: 20%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-right: grey 1px solid; }
+      .footer .footeritem .links .toplinks {
+        width: auto;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; }
+        .footer .footeritem .links .toplinks a {
+          text-decoration: none;
+          color: white; }
+    .footer .footeritem .social {
+      width: 20%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: space-between; }
+      .footer .footeritem .social .socialicons {
+        width: 50%;
+        height: auto;
+        display: flex;
+        justify-content: space-between; }
+        .footer .footeritem .social .socialicons a {
+          text-decoration: none; }
+      .footer .footeritem .social button {
+        width: 50%;
+        height: 50px;
+        border: none;
+        outline: none;
+        background-color: #FA6E12;
+        color: white;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "monserat"; }
+        .footer .footeritem .social button img {
+          margin-left: 10px; }
+
+/*# sourceMappingURL=%D1%81%D0%B0%D0%BC%D0%BE%D0%BB%D0%B5%D1%82%D1%8B.css.map */
